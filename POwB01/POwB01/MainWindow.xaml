@@ -1,0 +1,74 @@
+﻿<Window x:Class="POwB01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:skia="clr-namespace:SkiaSharp.Views.WPF;assembly=SkiaSharp.Views.WPF"
+        xmlns:local="clr-namespace:POwB01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+            
+        </Border>
+
+        <Border Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+
+        </Border>
+
+        <Grid Grid.Column="0">
+
+            <skia:SKElement x:Name="CanvasSkia" 
+                            PaintSurface="CanvasSkia_PaintSurface" 
+                            MouseDown="CanvasSkia_MouseDown"
+                            MouseMove="CanvasSkia_MouseMove"
+                            MouseUp="CanvasSkia_MouseUp"
+                            Margin="10"/>
+
+        </Grid>
+        
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" 
+                       x:Name="SredniaTextBlock" 
+                       Text="Srednia" 
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"/>
+
+            <TextBlock Grid.Row="1" 
+                       x:Name="MedianaTextBlock"
+                       Text="Mediana" 
+                       VerticalAlignment="Center" 
+                       HorizontalAlignment="Center"/>
+
+            <TextBlock Grid.Row="2" 
+                       x:Name="WariancjaTextBlock"
+                       Text="Wariancja" 
+                       VerticalAlignment="Center" 
+                       HorizontalAlignment="Center"/>
+
+            <TextBlock Grid.Row="3" 
+                       x:Name="OdchylenieTextBlock"
+                       Text="Odchylenie Standardowe" 
+                       VerticalAlignment="Center" 
+                       HorizontalAlignment="Center"/>
+
+            <Button Grid.Row="4" Content="Wczytaj obraz" Click="LoadImage_Click" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
