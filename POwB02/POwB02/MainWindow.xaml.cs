@@ -40,7 +40,7 @@ namespace POwB02
             bitmap = SKBitmap.Decode(dialog.FileName);
             if (bitmap == null)
             {
-                MessageBox.Show("Nie udało się wczytać obrazu!");
+                MessageBox.Show("Nie udało się wczytać obrazu");
                 return;
             }
 
@@ -232,13 +232,17 @@ namespace POwB02
 
         private void ProcessDatabase_Click(object sender, RoutedEventArgs e)
         {
-            var dialog = new CommonOpenFileDialog();
-            dialog.IsFolderPicker = true;
+            var dialog = new OpenFolderDialog();
 
-            if (dialog.ShowDialog() != CommonFileDialogResult.Ok)
+            if (dialog.ShowDialog() != true)
+            {
                 return;
+            }
+                
 
-            string root = dialog.FileName;
+            string root = dialog.FolderName;
+
+            MessageBox.Show(root);
 
             foreach (var personDir in Directory.GetDirectories(root))
             {
@@ -248,12 +252,14 @@ namespace POwB02
 
                 foreach (var file in Directory.GetFiles(personDir))
                 {
-                    if (!file.EndsWith(".jpg") && !file.EndsWith(".png") && !file.EndsWith(".bmp"))
+                    if (!file.EndsWith(".jpg") && !file.EndsWith(".jpeg") && !file.EndsWith(".png") && !file.EndsWith(".bmp"))
                         continue;
 
                     var bmp = SKBitmap.Decode(file);
                     var gray = ConvertToGrayscale(bmp);
                     var hist = ComputeLBPHistogram(gray, out var lbpImg);
+
+                    MessageBox.Show("Przetwarzono");
 
                     SaveHistogramAsPng(
                         hist,
