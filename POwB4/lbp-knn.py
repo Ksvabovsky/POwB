@@ -31,6 +31,7 @@ for filename in os.listdir(train_dir):
 
 # Trening modelu
 knn = KNeighborsClassifier(n_neighbors=3, metric='euclidean')
+
 knn.fit(X_train, y_train)
 
 # Zapisanie modelu i danych do pliku
