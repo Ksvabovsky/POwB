@@ -1,0 +1,77 @@
+image,iou,dice,pred_pixels,gt_pixels,width,height,prediction_mask
+osoba 1 - michal\i1.jpg,0.486763,0.654796,10825,5293,512,512,output\segmentation\predicted_masks\osoba 1 - michal\i1.png
+osoba 1 - michal\i2.jpg,0.339857,0.507304,134271,45633,512,512,output\segmentation\predicted_masks\osoba 1 - michal\i2.png
+osoba 1 - michal\i3.JPG,0.472876,0.642113,77406,36655,512,512,output\segmentation\predicted_masks\osoba 1 - michal\i3.png
+osoba 1 - michal\i4.JPG,0.317683,0.482185,68582,21902,512,512,output\segmentation\predicted_masks\osoba 1 - michal\i4.png
+osoba 1 - michal\i5.JPG,0.441001,0.612076,89863,39683,512,512,output\segmentation\predicted_masks\osoba 1 - michal\i5.png
+osoba 10 - marika\i1.JPG,0.405889,0.577412,15941,6549,341,512,output\segmentation\predicted_masks\osoba 10 - marika\i1.png
+osoba 10 - marika\i2.JPG,0.388386,0.559478,5560,2258,512,341,output\segmentation\predicted_masks\osoba 10 - marika\i2.png
+osoba 10 - marika\i3.JPG,0.464134,0.634004,11099,5393,341,512,output\segmentation\predicted_masks\osoba 10 - marika\i3.png
+osoba 10 - marika\i4.JPG,0.417808,0.589371,11883,5203,341,512,output\segmentation\predicted_masks\osoba 10 - marika\i4.png
+osoba 10 - marika\i5.JPG,0.083778,0.154603,3130,2355,341,512,output\segmentation\predicted_masks\osoba 10 - marika\i5.png
+osoba 11 - maciek\i1.jpg,0.360609,0.530070,58770,21193,512,512,output\segmentation\predicted_masks\osoba 11 - maciek\i1.png
+osoba 11 - maciek\i2.JPG,0.557233,0.715671,56663,31643,512,438,output\segmentation\predicted_masks\osoba 11 - maciek\i2.png
+osoba 11 - maciek\i3.JPG,0.000000,0.000000,21068,2804,512,341,output\segmentation\predicted_masks\osoba 11 - maciek\i3.png
+osoba 11 - maciek\i4.JPG,0.000000,0.000000,0,12420,512,386,output\segmentation\predicted_masks\osoba 11 - maciek\i4.png
+osoba 11 - maciek\i5.JPG,0.616012,0.762385,10170,6281,341,512,output\segmentation\predicted_masks\osoba 11 - maciek\i5.png
+osoba 12 - piekny i boski\i1.JPG,0.433453,0.604768,38950,16883,341,512,output\segmentation\predicted_masks\osoba 12 - piekny i boski\i1.png
+osoba 12 - piekny i boski\i2.JPG,0.691865,0.817872,23131,16237,341,512,output\segmentation\predicted_masks\osoba 12 - piekny i boski\i2.png
+osoba 12 - piekny i boski\i3.JPG,0.383349,0.554233,44633,17110,384,512,output\segmentation\predicted_masks\osoba 12 - piekny i boski\i3.png
+osoba 12 - piekny i boski\i4.JPG,0.508366,0.674062,180128,91571,384,512,output\segmentation\predicted_masks\osoba 12 - piekny i boski\i4.png
+osoba 12 - piekny i boski\i5.JPG,0.382156,0.552985,7913,3024,512,288,output\segmentation\predicted_masks\osoba 12 - piekny i boski\i5.png
+osoba 13 - Krzysiek\i1.JPG,0.630978,0.773742,45691,28830,384,512,output\segmentation\predicted_masks\osoba 13 - Krzysiek\i1.png
+osoba 13 - Krzysiek\i2.JPG,0.619904,0.765359,58136,36225,384,512,output\segmentation\predicted_masks\osoba 13 - Krzysiek\i2.png
+osoba 13 - Krzysiek\i3.JPG,0.354734,0.523695,62144,22050,384,512,output\segmentation\predicted_masks\osoba 13 - Krzysiek\i3.png
+osoba 13 - Krzysiek\i4.JPG,0.581912,0.735707,45068,26455,384,512,output\segmentation\predicted_masks\osoba 13 - Krzysiek\i4.png
+osoba 13 - Krzysiek\i5.JPG,0.627673,0.771252,34340,25490,384,512,output\segmentation\predicted_masks\osoba 13 - Krzysiek\i5.png
+osoba 14 - Mateusz\i1.jpg,0.594472,0.745667,49077,29269,384,512,output\segmentation\predicted_masks\osoba 14 - Mateusz\i1.png
+osoba 14 - Mateusz\i2.jpg,0.573115,0.728637,55346,31825,384,512,output\segmentation\predicted_masks\osoba 14 - Mateusz\i2.png
+osoba 14 - Mateusz\i3.jpg,0.531546,0.694130,56520,30043,384,512,output\segmentation\predicted_masks\osoba 14 - Mateusz\i3.png
+osoba 14 - Mateusz\i4.jpg,0.553927,0.712939,52165,29065,384,512,output\segmentation\predicted_masks\osoba 14 - Mateusz\i4.png
+osoba 14 - Mateusz\i5.jpg,0.590437,0.742484,48160,28445,384,512,output\segmentation\predicted_masks\osoba 14 - Mateusz\i5.png
+osoba 15 - Michal\i1.jpg,0.534489,0.696634,61299,32914,384,512,output\segmentation\predicted_masks\osoba 15 - Michal\i1.png
+osoba 15 - Michal\i2.jpg,0.302854,0.464909,154219,46913,384,512,output\segmentation\predicted_masks\osoba 15 - Michal\i2.png
+osoba 15 - Michal\i3.jpg,0.514440,0.679379,66585,34363,384,512,output\segmentation\predicted_masks\osoba 15 - Michal\i3.png
+osoba 15 - Michal\i4.jpg,0.438668,0.609825,64551,28456,384,512,output\segmentation\predicted_masks\osoba 15 - Michal\i4.png
+osoba 15 - Michal\i5.jpg,0.355923,0.524990,126609,45063,384,512,output\segmentation\predicted_masks\osoba 15 - Michal\i5.png
+osoba 2 - konrad\i1.JPG,0.493977,0.661291,104187,51466,512,512,output\segmentation\predicted_masks\osoba 2 - konrad\i1.png
+osoba 2 - konrad\i2.JPG,0.507982,0.673724,102610,52124,512,512,output\segmentation\predicted_masks\osoba 2 - konrad\i2.png
+osoba 2 - konrad\i3.JPG,0.416407,0.587977,124285,51824,512,512,output\segmentation\predicted_masks\osoba 2 - konrad\i3.png
+osoba 2 - konrad\i4.JPG,0.421639,0.593173,124151,52509,512,512,output\segmentation\predicted_masks\osoba 2 - konrad\i4.png
+osoba 3 - kuba\i1.jpg,0.400203,0.571636,71659,29052,512,512,output\segmentation\predicted_masks\osoba 3 - kuba\i1.png
+osoba 3 - kuba\i2.jpg,0.423054,0.594572,61043,26509,512,512,output\segmentation\predicted_masks\osoba 3 - kuba\i2.png
+osoba 3 - kuba\i3.jpg,0.514205,0.679174,48891,25196,512,512,output\segmentation\predicted_masks\osoba 3 - kuba\i3.png
+osoba 3 - kuba\i4.JPG,0.508059,0.673792,58216,30019,512,512,output\segmentation\predicted_masks\osoba 3 - kuba\i4.png
+osoba 3 - kuba\i5.JPG,0.472885,0.642121,55116,26663,512,512,output\segmentation\predicted_masks\osoba 3 - kuba\i5.png
+osoba 3 - kuba\i6.JPG,0.359249,0.528599,93992,34597,512,512,output\segmentation\predicted_masks\osoba 3 - kuba\i6.png
+osoba 4 - paker\i1.jpg,0.565381,0.722356,49559,28134,512,512,output\segmentation\predicted_masks\osoba 4 - paker\i1.png
+osoba 4 - paker\i2.jpg,0.537486,0.699175,59208,31845,512,512,output\segmentation\predicted_masks\osoba 4 - paker\i2.png
+osoba 4 - paker\i3.JPG,0.673095,0.804611,60452,41140,512,512,output\segmentation\predicted_masks\osoba 4 - paker\i3.png
+osoba 4 - paker\i4.JPG,0.576704,0.731531,72573,41943,512,512,output\segmentation\predicted_masks\osoba 4 - paker\i4.png
+osoba 4 - paker\i5.JPG,0.562487,0.719989,76403,43146,512,512,output\segmentation\predicted_masks\osoba 4 - paker\i5.png
+osoba 4 - paker\i6.JPG,0.557649,0.716014,75839,42385,512,512,output\segmentation\predicted_masks\osoba 4 - paker\i6.png
+osoba 5 - asia\i1.jpg,0.560480,0.718343,68486,38385,512,512,output\segmentation\predicted_masks\osoba 5 - asia\i1.png
+osoba 5 - asia\i2.jpg,0.497574,0.664507,62857,31276,512,512,output\segmentation\predicted_masks\osoba 5 - asia\i2.png
+osoba 5 - asia\i3.JPG,0.555033,0.713854,56793,31522,512,512,output\segmentation\predicted_masks\osoba 5 - asia\i3.png
+osoba 5 - asia\i4.JPG,0.665692,0.799298,47142,31447,512,512,output\segmentation\predicted_masks\osoba 5 - asia\i4.png
+osoba 5 - asia\i5.JPG,0.532146,0.694641,57830,30774,512,512,output\segmentation\predicted_masks\osoba 5 - asia\i5.png
+osoba 6 - krzysztof\i1.JPG,0.342326,0.510049,64757,22168,512,512,output\segmentation\predicted_masks\osoba 6 - krzysztof\i1.png
+osoba 6 - krzysztof\i2.JPG,0.439919,0.611033,106426,46826,512,512,output\segmentation\predicted_masks\osoba 6 - krzysztof\i2.png
+osoba 6 - krzysztof\i3.JPG,0.326625,0.492415,129102,42168,512,512,output\segmentation\predicted_masks\osoba 6 - krzysztof\i3.png
+osoba 6 - krzysztof\i4.JPG,0.360612,0.530073,98222,35420,512,512,output\segmentation\predicted_masks\osoba 6 - krzysztof\i4.png
+osoba 6 - krzysztof\i5.JPG,0.407957,0.579502,81940,33428,512,512,output\segmentation\predicted_masks\osoba 6 - krzysztof\i5.png
+osoba 7 - kuba2\i1.JPG,0.425064,0.596554,42855,18256,512,512,output\segmentation\predicted_masks\osoba 7 - kuba2\i1.png
+osoba 7 - kuba2\i2.JPG,0.555729,0.714429,60793,33800,512,512,output\segmentation\predicted_masks\osoba 7 - kuba2\i2.png
+osoba 7 - kuba2\i3.JPG,0.502662,0.669029,61732,31110,512,512,output\segmentation\predicted_masks\osoba 7 - kuba2\i3.png
+osoba 7 - kuba2\i4.JPG,0.473856,0.643015,59985,28635,512,512,output\segmentation\predicted_masks\osoba 7 - kuba2\i4.png
+osoba 7 - kuba2\i5.JPG,0.492022,0.659537,65937,32529,512,512,output\segmentation\predicted_masks\osoba 7 - kuba2\i5.png
+osoba 8 - piotrek\i1.JPG,0.389120,0.560240,42740,16631,512,512,output\segmentation\predicted_masks\osoba 8 - piotrek\i1.png
+osoba 8 - piotrek\i2.JPG,0.425307,0.596794,53914,22930,512,512,output\segmentation\predicted_masks\osoba 8 - piotrek\i2.png
+osoba 8 - piotrek\i3.JPG,0.531475,0.694069,44594,23745,512,512,output\segmentation\predicted_masks\osoba 8 - piotrek\i3.png
+osoba 8 - piotrek\i4.JPG,0.328282,0.494295,101090,33186,512,512,output\segmentation\predicted_masks\osoba 8 - piotrek\i4.png
+osoba 8 - piotrek\i5.JPG,0.458831,0.629039,96163,44178,512,512,output\segmentation\predicted_masks\osoba 8 - piotrek\i5.png
+osoba 9 - marcin\i1.JPG,0.412045,0.583614,84633,34946,512,512,output\segmentation\predicted_masks\osoba 9 - marcin\i1.png
+osoba 9 - marcin\i2.JPG,0.451280,0.621906,68254,31327,512,512,output\segmentation\predicted_masks\osoba 9 - marcin\i2.png
+osoba 9 - marcin\i3.JPG,0.438239,0.609410,67904,30076,512,512,output\segmentation\predicted_masks\osoba 9 - marcin\i3.png
+osoba 9 - marcin\i4.JPG,0.432461,0.603802,72328,32935,512,512,output\segmentation\predicted_masks\osoba 9 - marcin\i4.png
+osoba 9 - marcin\i5.JPG,0.358985,0.528314,77432,28365,512,512,output\segmentation\predicted_masks\osoba 9 - marcin\i5.png

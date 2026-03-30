@@ -1,0 +1,12 @@
+Segmentation summary (OpenCV GrabCut)
+images_processed=76
+images_skipped=0
+resize_max_side=512
+iou_avg=0.459348
+iou_median=0.468505
+iou_min=0.000000
+iou_max=0.691865
+dice_avg=0.617266
+dice_median=0.638059
+dice_min=0.000000
+dice_max=0.817872
